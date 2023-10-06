@@ -4,7 +4,7 @@ En este repositorio se encuentran los datos de entrenamiento (``train.csv``) y d
 Cada ``.csv`` contiene pares (palabra,lenguaje), donde el identificador del español es "es" y el del guaraní es "gn".
 
 
-Para la carga de datos se puede seguir el enfoque que resulte más práctico, pero una recomendación es usar:
+Para la carga de datos se puede seguir el enfoque que resulte más práctico, pero una recomendación es usar la biblioteca ``urllib`` para Python:
 
 ```
 import urllib.request
